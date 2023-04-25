@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1665086500 source:c:\users\gastona\downloads\repaso34\inscriptoscb\estudiante.cpp
+	<cstring>
+	<iostream>
+	"Estudiante.h"
+
+1676578484 c:\users\gastona\downloads\repaso34\inscriptoscb\estudiante.h
+	<string>
+	"Fecha.h"
+
+1676578725 c:\users\gastona\downloads\repaso34\inscriptoscb\fecha.h
+	<string>
+
+1682358078 source:c:\users\gastona\downloads\repaso34\inscriptoscb\estudiantesarchivo.cpp
+	"EstudiantesArchivo.h"
+
+1681385589 c:\users\gastona\downloads\repaso34\inscriptoscb\estudiantesarchivo.h
+	"Estudiante.h"
+
+1682445189 source:c:\users\gastona\downloads\repaso34\inscriptoscb\examen.cpp
+	<iostream>
+	"Examen.h"
+
+1682426858 c:\users\gastona\downloads\repaso34\inscriptoscb\examen.h
+	"Inscripcion.h"
+	"Globales.h"
+	"EstudiantesArchivo.h"
+
+1682432574 c:\users\gastona\downloads\repaso34\inscriptoscb\inscripcion.h
+	"Fecha.h"
+
+1682425245 c:\users\gastona\downloads\repaso34\inscriptoscb\globales.h
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1652994026 source:c:\users\gastona\downloads\repaso34\inscriptoscb\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1682426858 source:c:\users\gastona\downloads\repaso34\inscriptoscb\globales.cpp
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682432574 source:c:\users\gastona\downloads\repaso34\inscriptoscb\inscripcion.cpp
+	<iostream>
+	"Inscripcion.h"
+	"Examen.h"
+
+1682433565 source:c:\users\gastona\downloads\repaso34\inscriptoscb\main.cpp
+	<iostream>
+	"Soluciones.h"
+
+1682359933 c:\users\gastona\downloads\repaso34\inscriptoscb\soluciones.h
+
+1682446952 source:c:\users\gastona\downloads\repaso34\inscriptoscb\soluciones.cpp
+	<iostream>
+	"Soluciones.h"
+	"Inscripcion.h"
+	"Examen.h"
+
