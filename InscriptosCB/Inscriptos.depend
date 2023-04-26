@@ -125,3 +125,66 @@
 	"Inscripcion.h"
 	"Examen.h"
 
+1682507916 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\estudiante.cpp
+	<cstring>
+	<iostream>
+	"Estudiante.h"
+
+1682507916 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\estudiante.h
+	<string>
+	"Fecha.h"
+
+1682507916 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\fecha.h
+	<string>
+
+1682507916 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\estudiantesarchivo.cpp
+	"EstudiantesArchivo.h"
+
+1682507916 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\estudiantesarchivo.h
+	"Estudiante.h"
+
+1682507916 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1682518588 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\globales.cpp
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682507916 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\inscripcion.h
+	"Fecha.h"
+
+1682518588 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\examen.h
+	"Inscripcion.h"
+	"Globales.h"
+	"EstudiantesArchivo.h"
+
+1682518588 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\globales.h
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682507916 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\inscripcion.cpp
+	<iostream>
+	"Inscripcion.h"
+	"Examen.h"
+
+1682507916 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\main.cpp
+	<iostream>
+	"Soluciones.h"
+
+1682507916 c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\soluciones.h
+
+1682522700 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\soluciones.cpp
+	<iostream>
+	"Soluciones.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682523294 source:c:\users\gastona\downloads\repaso34\repasoexamencodeblocks\inscriptoscb\examen.cpp
+	<iostream>
+	"Examen.h"
+

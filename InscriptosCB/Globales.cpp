@@ -29,9 +29,29 @@ bool existeAlumno(int legajo){
 
 
 
-
  }
 
+bool existeAlumnoEnArchivoExamenes(int legajo){
+
+    Examen reg;
+    int cantidad = reg.getCantidad();
+
+
+    for( int i = 0; i< cantidad ; i++){
+
+
+        if( legajo == reg.leer(i).getLegajoAlumno()){
+
+            return true;
+        }
+    }
+
+    return false;
+
+
+
+
+ }
 
  bool yaEstaInscripto(Inscripcion reg){
 
@@ -50,6 +70,26 @@ bool existeAlumno(int legajo){
 
  }
 
+  int buscarMax(int * cantInscriptosXMateria,int cantMaterias){
 
+    int maximo =cantInscriptosXMateria[0];
+
+    for (int i = 1; i< cantMaterias; i++){
+
+        if(cantInscriptosXMateria[i]> maximo){
+
+            maximo = cantInscriptosXMateria[i];
+
+
+        }
+
+    }
+    return maximo;
+
+
+
+
+
+  }
 
 

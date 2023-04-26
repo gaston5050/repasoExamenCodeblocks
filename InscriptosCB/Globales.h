@@ -6,7 +6,9 @@
 #include "Examen.h"
 
 bool existeAlumno(int legajo);
+bool existeAlumnoEnArchivoExamenes(int legajo);
 bool yaEstaInscripto(Inscripcion reg);
+ int buscarMax(int * cantInscriptosXMateria,int cantMaterias);
 
 
 #endif // GLOBALES_H_INCLUDED

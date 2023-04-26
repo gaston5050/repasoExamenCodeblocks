@@ -79,7 +79,7 @@ void Examen::fullHibrido()
         legArchivoEst =aux.leer(j).getLegajo();
 
             bandera = true;
-        if(existeAlumno(aux.leer(j).getLegajo()))
+        if(existeAlumnoEnArchivoExamenes(aux.leer(j).getLegajo()))
         {
 
             for(int i = 0; i<cant; i++)
@@ -119,12 +119,48 @@ void Examen::fullHibrido()
 bool Examen::legajoExiste(int legajo)
 {
 
-    for( int i = 0; i<getCantidad(); i++)
+    for( int i = 0; i<getCantidad(); i++){
 
-        if(this->leer(i).getLegajoAlumno() == legajo)
+        if(this->leer(i).getLegajoAlumno() == legajo){
 
             return true;
+}
+
+
+            }
 
     return false;
 
 }
+
+
+
+ void Examen::materiaMasDemandada() {
+
+    int cantMaterias = 11;
+    int *cantInscriptosXMateria = new int [cantMaterias]{};
+    if(cantInscriptosXMateria == nullptr ){
+            std::cout<< "NO NO NO"<<std::endl;
+
+            return;}
+
+    for(int i = 0 ; i< getCantidad(); i++){
+
+        cantInscriptosXMateria[leer(i).getIdMateria()-1]++;
+    }
+
+
+   int maxInscriptos =  buscarMax(cantInscriptosXMateria,cantMaterias);
+
+   for(int i = 0 ; i< cantMaterias; i++){
+
+       if(maxInscriptos == cantInscriptosXMateria[i]){
+
+            std::cout<< "MATERIA CON MAS INSCRIPTOS: " << i+1 <<std::endl;
+       }
+    }
+
+
+    delete(cantInscriptosXMateria);
+
+ }

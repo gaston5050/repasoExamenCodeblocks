@@ -5,9 +5,10 @@
 
 void Soluciones::punto1(){
 Examen aux;
-/*
 Inscripcion reg;
+/*
 reg.cargar();
+
 
 if(!yaEstaInscripto(reg)){
 
@@ -27,7 +28,11 @@ for( int i = 0; i< aux.getCantidad(); i++){
 }
 
 
+std::cout<<std::endl;
 
 aux.fullHibrido();
 
+std::cout<<std::endl;
+aux.materiaMasDemandada();
 }
+
