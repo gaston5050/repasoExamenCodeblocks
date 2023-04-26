@@ -21,10 +21,10 @@ else{
 
 }
 
+*/
 for( int i = 0; i< aux.getCantidad(); i++){
  std::cout<<aux.leer(i).toString() << std::endl;
 }
-*/
 
 
 

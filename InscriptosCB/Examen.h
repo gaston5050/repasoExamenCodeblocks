@@ -14,6 +14,7 @@ public:
 
     Inscripcion leer(int nroRegistro);
     void fullHibrido();
+    bool legajoExiste(int legajo);
 
 
 

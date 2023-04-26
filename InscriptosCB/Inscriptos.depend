@@ -62,3 +62,66 @@
 	"Inscripcion.h"
 	"Examen.h"
 
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\estudiante.cpp
+	<cstring>
+	<iostream>
+	"Estudiante.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\estudiante.h
+	<string>
+	"Fecha.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\fecha.h
+	<string>
+
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\estudiantesarchivo.cpp
+	"EstudiantesArchivo.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\estudiantesarchivo.h
+	"Estudiante.h"
+
+1682475743 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\examen.cpp
+	<iostream>
+	"Examen.h"
+
+1682475493 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\examen.h
+	"Inscripcion.h"
+	"Globales.h"
+	"EstudiantesArchivo.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\inscripcion.h
+	"Fecha.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\globales.h
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\globales.cpp
+	"Estudiante.h"
+	"EstudiantesArchivo.h"
+	"Inscripcion.h"
+	"Examen.h"
+
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\inscripcion.cpp
+	<iostream>
+	"Inscripcion.h"
+	"Examen.h"
+
+1682465513 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\main.cpp
+	<iostream>
+	"Soluciones.h"
+
+1682465513 c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\soluciones.h
+
+1682469905 source:c:\users\anima\onedrive\documentos\2022\repasoexamencodeblocks\inscriptoscb\soluciones.cpp
+	<iostream>
+	"Soluciones.h"
+	"Inscripcion.h"
+	"Examen.h"
+
